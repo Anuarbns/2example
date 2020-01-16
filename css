@@ -1,0 +1,42 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+.navsection {
+  background-image: url(https://colorlib.com/preview/theme/startup2/img/banner/banner.png);
+      position: relative;
+    z-index: 1;
+    height: 900px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+#overlay {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.8);
+  z-index: 0; 
+
+}
+.navsection .navbar {
+  padding: 15px 0 15px 0px;
+}
+.navsection .navbar .navbar-brand, .navsection .navbar .Say-Hello {
+  color: #fff;
+}
+.navsection .navbar .navbar-nav .nav-item a, .navsection .navbar .navbar-nav .active>.nav-link
+{
+  color: #fff;
+}
+.navsection .navbar .navbar-nav .nav-item a:hover, .navsection .navbar .navbar-nav .active>.nav-link:hover {
+  color: #615cfd;
+}
+.navsection .navbar .navbar-nav .nav-item .dropdown-item
+{
+  color: black;
+}
